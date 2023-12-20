@@ -3,17 +3,13 @@ version: "3.8"
 services:
     postgres_merise:
         image: postgres:16.1
-        container_name: postgres_merise
+        container_name: Postgre-merise-Sarah
         restart: always
         environment:
             POSTGRES_USER: sarah
             POSTGRES_PASSWORD: Oxymore59230
-            POSTGRES_DB: brief_merise
+            POSTGRES_HOST: localhost
         ports:
-            - 9254:5432
+            - 9255:5432
         volumes:
-            - postgres_brief_merise:/var/lib/postgresql/data/
-
-volumes:
-    postgres_brief_merise:
-        driver: local
+            - ./:/docker-entrypoint-initdb.d
