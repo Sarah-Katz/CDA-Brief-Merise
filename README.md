@@ -1,13 +1,23 @@
 # **NetStream** - *Concepteur développeur d'Application*
 ### *Contexte du projet*
-Dans le cadre de notre apprentissage de Merise, nous avons pour tâche de concevoir une base de données Postgres en la déployant via un environnement Docker. Il nous est également demandé des requêtes.
+Dans le cadre de notre apprentissage de Merise, nous avons pour tâche de concevoir une base de données Postgres en la déployant via un environnement Docker. Il nous est également demandé des requêtes exemples, disponible dans ce readme.
 ___
 ### *Technologies utilisées*
 ![DOCKER](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![POSTGRES](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ___
 ### *Installation du projet*
-```TODO```
+Ouvrez un terminal et naviguez vers le répertoire "*Database*".
+
+Exécutez la commande :
+```cmd
+docker compose up
+```
+Utilisez un SGBD (compatible postgresql) pour interagir avec la base de données.
+
+Deux login sont disponible :
+- Super Admin : *login* : **sarah**, *mdp* : **Oxymore59230**
+- Utilisateur : *login* : **Client**, *mdp* : **clientPassword**
 ___
 ### *Contributeur.ices*
 
